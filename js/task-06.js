@@ -15,7 +15,7 @@ function onLostFocus(event){
 
  const arrChars = event.currentTarget.value;
  
- if (arrChars.length <= 6 ){
+ if (arrChars.length === 6 ){
  inputEl.classList.add('valid');
  }
  else{
